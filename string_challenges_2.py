@@ -115,3 +115,9 @@ print(add_exclamation("Codecademy is the best place to learn"))
 print(add_exclamation("Covfefe"))
 # should print Covfefe!!!!!!!!!!!!!
 
+# Someone pointed out to me that I could write the same function with the following
+def add_exclamation(word):
+  while(len(word) < 20):
+    word += "!"
+  return word
+
